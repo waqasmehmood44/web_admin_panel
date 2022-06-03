@@ -24,7 +24,7 @@ const Sidebar = () => {
                     <span>Users</span>
 
                 </li>
-                
+
                 </Link>
                 <Link to="/service_provider" style={{textDecoration: "none",color:"gray"}}> 
                 <li>
@@ -35,7 +35,7 @@ const Sidebar = () => {
                 <Link to="/request" style={{textDecoration: "none" ,color:"gray"}}> 
                 <li>
                     <GppGoodIcon/>
-                    <span>Requests</span>
+                    <span>Request</span>
                 </li>
                 </Link>
                 <Link to="/approved_stations" style={{textDecoration: "none" ,color:"gray"}}>   
