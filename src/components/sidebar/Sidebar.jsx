@@ -35,7 +35,7 @@ const Sidebar = () => {
                 <Link to="/request" style={{textDecoration: "none" ,color:"gray"}}> 
                 <li>
                     <GppGoodIcon/>
-                    <span>Request</span>
+                    <span>Approval Requests</span>
                 </li>
                 </Link>
                 <Link to="/approved_stations" style={{textDecoration: "none" ,color:"gray"}}>   
