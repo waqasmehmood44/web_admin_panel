@@ -4,6 +4,7 @@ import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 import PeopleIcon from '@mui/icons-material/People';
 import CheckBoxIcon from '@mui/icons-material/CheckBox';
 import GppGoodIcon from '@mui/icons-material/GppGood';
+import PendingActionsIcon from '@mui/icons-material/PendingActions';
 import {Link} from "react-router-dom"
 import { color } from "@mui/system";
 
@@ -34,7 +35,7 @@ const Sidebar = () => {
                 </Link>
                 <Link to="/request" style={{textDecoration: "none" ,color:"gray"}}> 
                 <li>
-                    <GppGoodIcon/>
+                    <PendingActions/>
                     <span>Approval Requests</span>
                 </li>
                 </Link>
